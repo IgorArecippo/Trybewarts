@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+}
+
+* , *:before , *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  color: white;
+}
+
+.trybewarts-login {
+  display: flex;
+}
+
+.trybewarts-login input {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 150px;
+  margin: 0 5px;
+  padding: 0 10px;
+}
+
+.trybewarts-login button {
+  background-color: rgb(78, 44, 131);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  height: 30px;
+  width: 150px;
+  margin: 0 5px;
+}
+
+.trybewarts-header-logo {
+  width: 65px;
+}
