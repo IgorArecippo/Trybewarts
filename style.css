@@ -39,8 +39,23 @@ html {
   height: 30px;
   width: 150px;
   margin: 0 5px;
+  cursor: pointer;
 }
 
 .trybewarts-header-logo {
   width: 65px;
+}
+
+.main {
+  display: flex;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
 }
