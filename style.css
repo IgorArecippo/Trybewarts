@@ -90,3 +90,21 @@ html {
   display: flex;
   flex-direction: column;
 }
+
+#form-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#submit-btn {
+  width: 100%;
+}
+
+#textarea {
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}

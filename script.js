@@ -13,3 +13,17 @@ function enviaHeader(evento) {
 }
 
 botaoEnviarHeader.addEventListener('click', enviaHeader);
+const button = document.getElementById('submit-btn');
+const checkbox = document.getElementById('agreement');
+function desativar() {
+  button.disabled = true;
+}
+window.onload = desativar;
+function ativar() {
+  if (checkbox.checked === true) {
+    button.disabled = false;
+  } else if (checkbox.checked === false) {
+    button.disabled = true;
+  }
+}
+checkbox.addEventListener('click', ativar);
